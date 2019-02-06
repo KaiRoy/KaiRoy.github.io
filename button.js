@@ -13,11 +13,13 @@ document.getElementById("button2").addEventListener("click", ContentChange("butt
 //Show moreless function
 function ContentChange(btn, counter, data, contentsm, contentsl) {
 	if (counter == 0) { 
+		console.log("Hi!");
 		document.getElementById(data).innerHTML = contentsl;
 		document.getElementById(btn).innerHTML = "Show More";
 		counter = 1;
 	}
 	else { 
+		console.log("Bye!");
 		document.getElementById(data).innerHTML = contentsm;    
 		document.getElementById(btn).innerHTML = "Show Less";
 		counter = 0;
