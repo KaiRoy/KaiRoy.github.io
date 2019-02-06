@@ -6,8 +6,8 @@ document.getElementById("button1").addEventListener("click", ContentChange("butt
 
 //Project 2 Button
 var counter2 = 0;
-var contentsm2 = "More Content";
-var contentsl2 = "Less Content";
+var contentsm2 = "Even More Content";
+var contentsl2 = "Even Less Content";
 document.getElementById("button2").addEventListener("click", ContentChange("button2", counter2, "data2", contentsm2, contentsl2));
 
 //Show moreless function
