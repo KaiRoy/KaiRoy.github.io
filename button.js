@@ -2,14 +2,18 @@
 var counter1 = 0;
 var contentsm1 = "More Content";
 var contentsl1 = "Less Content";
-document.getElementById("button1").addEventListener("click", ContentChange("button1", counter1, "data1", contentsm1, contentsl1));
+document.getElementById("button1").addEventListener("click", console.log("Hi!");
 
 //Project 2 Button
 var counter2 = 0;
 var contentsm2 = "Even More Content";
 var contentsl2 = "Even Less Content";
-document.getElementById("button2").addEventListener("click", ContentChange("button2", counter2, "data2", contentsm2, contentsl2));
-
+document.getElementById("button2").addEventListener("click", function());
+						    
+						   
+function () {
+	console.log("Hi!");
+}
 //Show moreless function
 function ContentChange(btn, counter, data, contentsm, contentsl) {
 	if (counter == 0) { 
