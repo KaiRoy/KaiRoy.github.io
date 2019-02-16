@@ -1,31 +1,27 @@
 //Project 1 Button
-var counter1 = 0;
+var counter1 = true;
 var contentsm1 = "More Content";
 var contentsl1 = "Less Content";
-document.getElementById("button1").addEventListener("click", console.log("Hi!");
 
 //Project 2 Button
-var counter2 = 0;
-var contentsm2 = "Even More Content";
-var contentsl2 = "Even Less Content";
-document.getElementById("button2").addEventListener("click", function());
-						    
-						   
-function () {
-	console.log("Hi!");
-}
+var counter2 = true;
+var contentsm2 = "More Content";
+var contentsl2 = "Less Content";
+
+document.getElementById("button1").addEventListener("click", ContentChange ("button1", counter1, "data1", contentsm1, contentsl1));
+document.getElementById("button2").addEventListener("click", ContentChange ("button2", counter2, "data2", contentsm2, contentsl2));
+document.getElementById("button1").addEventListener("click", console.log("Hi!"));
+
 //Show moreless function
-function ContentChange(btn, counter, data, contentsm, contentsl) {
-	if (counter == 0) { 
-		console.log("Hi!");
-		document.getElementById(data).innerHTML = contentsl;
-		document.getElementById(btn).innerHTML = "Show More";
-		counter = 1;
+function ContentChange (btn, counter, data, contentsm, contentsl) {
+	if (counter1 == true) { 
+		document.getElementById("data1").innerHTML = "Please Work";
+		//document.getElementById(btn).innerHTML = "Show More";
+		counter1 = false;
 	}
 	else { 
-		console.log("Bye!");
-		document.getElementById(data).innerHTML = contentsm;    
-		document.getElementById(btn).innerHTML = "Show Less";
-		counter = 0;
+		document.getElementById("data1").innerHTML = "Please work more";    
+		//document.getElementById(btn).innerHTML = "Show Less";
+		counter1 = true;
 	}
 }
