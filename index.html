@@ -3,10 +3,11 @@
 	<head>
 		<Title>Portfolio</Title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="button.js"></script>
 	</head>
 	<body>
 		<div class="header">
-			<h1><b>The Website of Kai Roy</b></h1>
+			<h1><b>Kai Roy</b></h1>
 			<p>Welcome to my website!</p>
 		</div>
 		
@@ -14,48 +15,85 @@
 			<div class="links">
 				<a href="index.html" class="active">My Portfolio</a>
 				<a href="aboutme.html">About Me</a>
+				<a class="GitHub" href="https://github.com/KaiRoy/KaiRoy.github.io">GitHub</a>
 			</div>
 		</div>
 		
 		<div class="row">
-			<div class="main">
+			<div class="main"> <!-- Note: All buttons do not currently work, thus they have been commented out.-->
 				<div class="card">
-					<h3><b>Project Name</b></h3>
-					<h5>Progect description, Date?</h5>
-					<p class="content" id="data1">Lots of Content</P>
-					<button class="btn" type="button" id="button1">Show More</button>
+					<h3><b>Motherboard Wall Art</b></h3>
+					<h5>Making Wall Art out of Broken Motherboards</h5>
+					<p class="content" id="data1">
+						&nbsp &nbsp &nbsp &nbsp During the summer I interned at an electronic repair story. The owner of the 
+						story would recycle broken computer parts for his clients. Liking the look of motherboards and other 
+						computer parts I decided to go through the recycle pile and take motherboards that looked apealing, 
+						with the owners permission of course. I manage to get motherboards from an Xbox 360, an Xbox One, a 
+						PS3, a 2008 IMac, a Mac Pro, and one from a 17 year old Gateqay computer.
+                    <br><br>
+                        &nbsp &nbsp &nbsp &nbsp I decided to attach these motherboards to a piece of plywood painted black, 
+						which I would then hang wherever I liked. I currently only have the Gateway, Mac Pro, and PS3 motherboards 
+						completed. I recently have debated adding LEDs that are hidden by the motherboards to make the artwork 
+						pop out a little bit more, but I have decided to think about doing that afer I finish the rest of 
+						the motherboard. 
+                    </p>
+                    <!--<button class="btn" type="button" id="button1">Show More</button>-->
 				</div>
 				<div class="card">
-					<h3><b>Project Name</b></h3>
-					<h5>Progect description, Date?</h5>
-					<p class="content" id="data2">Lots of Content</P>
-					<button class="btn" type="button" id="button2">Show More</button>
+					<h3><b>Arduino Music Box</b></h3>
+					<h5>An Arduino Assignment for IB Computer Science</h5>
+					<p class="content" id="data2">
+						&nbsp &nbsp &nbsp &nbsp Every student in the class had an Arduino kit and we were told to do something
+						with it. I had recenty (and still am) fascinated with music made by things like stepper motors and 
+						floppy discs. Becauseos this I decided to use the piezo element in the kit to make music. This would be 
+						the first step to stepper motor music. 
+						<br><br>
+						&nbsp &nbsp &nbsp &nbsp I luckily was able to find a library that contained a function that all I had to 
+						do was insert what note I wanted and its duration. I then pulled up some sheet music and started translating 
+						it into the program. It is a very time consuming process but the result was worth it to me. I made a couple 
+						full length song programs but then decided to make a program that would cycle through recognisable parts of 
+						different songs. Most the songs put into that program are theme songs from video games, movies, and tv shows.
+						</p>
+					<!--<button class="btn" type="button" id="button2">Show More</button>-->
 				</div>
 				<div class="card">
-					<h3><b>Project Name</b></h3>
-					<h5>Progect description, Date?</h5>
-					<p class="content" id="data3">Lots of Content</P>
-					<button class="btn" type="button" id="button3">Show More</button>
+					<h3><b>Local Temperature Recorder</b></h3>
+					<h5>Python Webscrapper</h5>
+					<p class="content" id="data3">
+						&nbsp &nbsp &nbsp &nbsp This was another assignment for my Computer Science class and all we had to do was 
+						make a webscrapper program in python. I decided to focus my webscrapper and scrapping the current 
+						temperature for the city I live in. At the beginning of the program It will query you for how long you want 
+						the program to run and at what time intervals do you want to scrape the current temperature. I only had 
+						one problem with my program: I could not export it to a spreadsheet. This is because when I was scrapping 
+						the temperature, it was also scrapping the degree symbolc which the spreadsheet could not recognise. I 
+						tried to find a solution to this but I was not able to with the time I had. Instead it just displays the 
+						temperature in the terminal.
+					</p>
+					<!--<button class="btn" type="button" id="button3">Show More</button>-->
 				</div>
 				<div class="card">
-					<h3><b>Project Name</b></h3>
-					<h5>Progect description, Date?</h5>
-					<p class="content" id="data4">Lots of Content</P>
-					<button class="btn" type="button" id="button4">Show More</button>
-				</div>
-				<div class="card">
-					<h3><b>Project Name</b></h3>
-					<h5>Progect description, Date?</h5>
-					<p class="content" id="data5">Lots of Content</P>
-					<button class="btn" type="button" id="button5">Show More</button>
+					<h3><b>Select-A-Student</b></h3>
+					<h5>Program for the Computer Science IA</h5>
+					<p class="content" id="data4">
+						&nbsp &nbsp &nbsp &nbsp Another project for my Computer Science class, except this one is special, this is 
+						the Internal Assessment (IA). The only difference between the IA and any other project is the documentation.
+						With the IA you need a client and you need to document interaction with them, their reaction to your program, 
+						what methods did you use while programmig, etc. 
+						<br><br>
+						&nbsp &nbsp &nbsp &nbsp For my IA I decided to make a stand alone Java program that will randomly select a 
+						student. This is my first time using Java and it was really fun to learn the basics. Overall I thought my 
+						program ended up pretty good for my IA, but there are still a couple things I would like to add or improve. 
+						One of those is improving the ability to edit the text file containing student names. My current method is 
+						not really effective and good easily (I think) be improved. Something else I would like to add is a way to 
+						randomize students into groups of either a select size or number. 
+					</p>
+					<!--<button class="btn" type="button" id="button4">Show More</button>-->
 				</div>
 			</div>
 		</div>
 		
 		<div class="footer">
-			<h2>Footer</h2>
+			<h2>Powered by GitHub</h2>
 		</div>
 	</body>
-	
-	<script src="button.js"></script>
 </html>
