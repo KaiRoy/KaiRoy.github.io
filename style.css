@@ -13,6 +13,11 @@ html, body {
 	margin: 0;
 }
 
+iframe {
+	width="420";
+	Height="315";
+}
+
 /* Header */
 .header {
 	padding: 50px;
