@@ -68,6 +68,8 @@ html, body {
 .card iframe {
 	text-align: center;
 	margin: auto;
+	width: 75%;
+	margin: 75%;
 	frameborder: 0px;
 }
 
