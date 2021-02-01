@@ -67,9 +67,8 @@ html, body {
 
 .card iframe {
 	text-align: center;
-	/*padding: 20px;*/
+	margin: auto;
 	frameborder: 0px;
-	allowfullscreen;
 }
 
 /* Footer */
