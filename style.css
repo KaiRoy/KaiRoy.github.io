@@ -66,8 +66,8 @@ html, body {
 }
 
 .card iframe {
-	allign: center;
-	padding: 20px;
+	align: center;
+	/*padding: 20px;*/
 	frameborder: 0px;
 	allowfulllscreen;
 }
