@@ -66,10 +66,10 @@ html, body {
 }
 
 .card iframe {
-	align: center;
+	text-align: center;
 	/*padding: 20px;*/
 	frameborder: 0px;
-	allowfulllscreen;
+	allowfullscreen;
 }
 
 /* Footer */
