@@ -67,7 +67,7 @@ html, body {
 
 .card iframe {
 	text-align: center;
-	margin: auto;
+	margin: 20px 20px;
 	width: 75%;
 	height: 75%;
 	frameborder: 0px;
