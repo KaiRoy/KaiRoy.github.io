@@ -6,12 +6,12 @@ const config = {
     sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: '',
+    linkedin: 'kai-roy-659357256',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -69,20 +69,14 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
+    /*
+	{
       title: 'Project Name',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
+    }, */
   ],
   // Display blog posts from your medium or dev account. (Optional)
  /* 
