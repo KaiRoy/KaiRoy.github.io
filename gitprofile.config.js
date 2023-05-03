@@ -35,11 +35,12 @@ const config = {
     'KiCad',
     'Autodesk EAGLE',
     'C/C++',
+	'System Verilog',
     'Arduino',
     'AVR',
     'FPGA',
-    'TH/SMD Soldering',
     'Oscilloscopes',
+	'TH/SMD Soldering',
   ],
   experiences: [
     {
