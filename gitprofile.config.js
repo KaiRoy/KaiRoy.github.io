@@ -29,7 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/uc?export=download&id=1LOdvfY2EBZEqmx96hXaZYTXlIO3m513wfT7tbKZHePg', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1LOdvfY2EBZEqmx96hXaZYTXlIO3m513wfT7tbKZHePg/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [	//Needs to be updated
     'KiCad',	
