@@ -29,13 +29,14 @@ const config = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1LOdvfY2EBZEqmx96hXaZYTXlIO3m513wfT7tbKZHePg/edit?usp=share_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [	//Needs to be updated
-    'KiCad',
+    'KiCad',	
     'Autodesk EAGLE',
     'C/C++',
 	'System Verilog',
+	'LaTeX',
     'Arduino',
     'AVR',
     'FPGA',
