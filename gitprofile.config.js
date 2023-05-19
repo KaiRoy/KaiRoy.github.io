@@ -63,7 +63,7 @@ const config = {
   education: [
     {
       institution: 'Oregon State University',
-      degree: 'Bachelors in Electrical and Computer Engineering',
+      degree: 'Bachelor\'s of Science in Electrical and Computer Engineering',
       from: '2019',
       to: '2023',
     },
