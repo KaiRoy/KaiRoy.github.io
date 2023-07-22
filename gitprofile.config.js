@@ -75,7 +75,7 @@ const config = {
       title: 'OPEnS Lab - eDNA Sampler',
       description:
         'This is an OPEnS Lab project tasked with creating an autonomous sampler capable of taking 24 enviromental DNA Samples from water sources',
-      imageUrl: 'https://github.com/OPEnSLab-OSU/eDNA/blob/master/Assets/V4eDNASampler.jpg',
+      imageUrl: 'https://avatars.githubusercontent.com/u/20525249?s=200&v=4',
       link: 'https://github.com/OPEnSLab-OSU/eDNA',
     }, 
   ],
