@@ -23,8 +23,8 @@ const config = {
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: '',
-    phone: '',
+    website: 'kairoy.github.io',
+    phone: '503-473-4094',
     email: 'kaikurisakaroy@gmail.com',
   },
   resume: {
@@ -71,14 +71,13 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    /*
 	{
-      title: 'Project Name',
+      title: 'OPEnS Lab - eDNA Sampler',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    }, */
+        'This is an OPEnS Lab project tasked with creating an autonomous sampler capable of taking 24 enviromental DNA Samples from water sources',
+      imageUrl: 'https://github.com/OPEnSLab-OSU/eDNA/blob/master/Assets/V4eDNASampler.jpg',
+      link: 'https://github.com/OPEnSLab-OSU/eDNA',
+    }, 
   ],
   // Display blog posts from your medium or dev account. (Optional)
  /* 
