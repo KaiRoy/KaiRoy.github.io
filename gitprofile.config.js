@@ -62,6 +62,12 @@ const config = {
   ], */
   education: [
     {
+      institution: 'Portland State University',
+      degree: 'Master\'s Degree in Electrical and Computer Engineering',
+      from: '2023',
+      to: '2025 (Expected)',
+    },
+    {
       institution: 'Oregon State University',
       degree: 'Bachelor\'s of Science in Electrical and Computer Engineering',
       from: '2019',
