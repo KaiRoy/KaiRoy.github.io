@@ -46,12 +46,12 @@ const config = {
   ],
   experiences: [
     {
-		company: 'OPEnS Lab',
-		position: 'Project Lead, Electrical Lead',
-		from: 'February 2021',
-		to: 'January 2024',
-		companyLink: 'https://open-sensing.org/',
-    },
+		company: 'Portland State University',
+		position: 'Graduate Teaching Assistant',
+		from: 'December 2024',
+		to: 'Present',
+		companyLink: 'https://www.pdx.edu/electrical-computer-engineering/',
+	},
 	{
 		company: 'Cafe Cinco Siete',
 		position: 'Barista',
@@ -60,12 +60,12 @@ const config = {
 		companyLink: 'https://www.cafecincosietepdx.com/',
 	},
 	{
-		company: 'Portland State University',
-		position: 'Graduate Teaching Assistant',
-		from: 'December 2024',
-		to: 'Present',
-		companyLink: 'https://www.pdx.edu/electrical-computer-engineering/',
-	  },
+		company: 'OPEnS Lab',
+		position: 'Project Lead, Electrical Lead',
+		from: 'February 2021',
+		to: 'January 2024',
+		companyLink: 'https://open-sensing.org/',
+    },
   ],
   /* certifications: [
     {
