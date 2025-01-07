@@ -32,11 +32,12 @@ const config = {
       'https://docs.google.com/document/d/1LOdvfY2EBZEqmx96hXaZYTXlIO3m513wfT7tbKZHePg/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [	//Needs to be updated
-    'KiCad',	
-    'Autodesk EAGLE',
     'C/C++',
 	'System Verilog',
 	'LaTeX',
+	'Tcl',
+	'KiCad',	
+    'Autodesk EAGLE',
     'Arduino',
     'AVR',
     'FPGA',
@@ -45,12 +46,26 @@ const config = {
   ],
   experiences: [
     {
-      company: 'OPEnS Lab',
-      position: 'Project Lead, Electrical Lead',
-      from: 'February  2021',
-      to: 'Present',
-      companyLink: 'https://open-sensing.org/',
+		company: 'OPEnS Lab',
+		position: 'Project Lead, Electrical Lead',
+		from: 'February 2021',
+		to: 'January 2024',
+		companyLink: 'https://open-sensing.org/',
     },
+	{
+		company: 'Cafe Cinco Siete',
+		position: 'Barista',
+		from: 'February 2024',
+		to: 'Novemeber 2024',
+		companyLink: 'https://www.cafecincosietepdx.com/',
+	},
+	{
+		company: 'Portland State University',
+		position: 'Graduate Teaching Assistant',
+		from: 'December 2024',
+		to: 'Present',
+		companyLink: 'https://www.pdx.edu/electrical-computer-engineering/',
+	  },
   ],
   /* certifications: [
     {
